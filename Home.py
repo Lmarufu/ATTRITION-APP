@@ -50,7 +50,7 @@ if authentication_status == True:
             # Display downloaded image
         image_path = './images/image.png'  
         st.image(image_path, use_column_width=False, output_format = "auto")
-        
+       
  
         # st.title('Customer Churn Prediction App')
         st.markdown(
