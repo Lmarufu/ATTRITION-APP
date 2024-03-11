@@ -1,0 +1,307 @@
+[
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "pyodbc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyodbc",
+        "description": "pyodbc",
+        "detail": "pyodbc",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleImputer",
+        "importPath": "sklearn.impute",
+        "description": "sklearn.impute",
+        "isExtraImport": true,
+        "detail": "sklearn.impute",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionTransformer",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "OneHotEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "LabelEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnTransformer",
+        "importPath": "sklearn.compose",
+        "description": "sklearn.compose",
+        "isExtraImport": true,
+        "detail": "sklearn.compose",
+        "documentation": {}
+    },
+    {
+        "label": "TransformerMixin",
+        "importPath": "sklearn.base",
+        "description": "sklearn.base",
+        "isExtraImport": true,
+        "detail": "sklearn.base",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit_authenticator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit_authenticator",
+        "description": "streamlit_authenticator",
+        "detail": "streamlit_authenticator",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "SafeLoader",
+        "importPath": "yaml.loader",
+        "description": "yaml.loader",
+        "isExtraImport": true,
+        "detail": "yaml.loader",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_KEY",
+        "kind": 5,
+        "importPath": "pages.01_📊_Data",
+        "description": "pages.01_📊_Data",
+        "peekOfCode": "DATA_KEY = \"data_key\"\n# Set page configuration\nst.set_page_config(\n    page_title='View Data',\n    page_icon='📈',\n    layout='wide'\n)\n# Check if the user is authenticated\nif not st.session_state.get(\"authentication_status\"):\n    st.info('Please log in to access the application from the homepage.')",
+        "detail": "pages.01_📊_Data",
+        "documentation": {}
+    },
+    {
+        "label": "LogTransformer",
+        "kind": 6,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "class LogTransformer:\n    def __init__(self, constant=1):\n        self.constant = constant\n    def transform(self, X_train):\n        return np.log1p(X_train + self.constant)\n# Define BooleanToStringTransformer class\nclass BooleanToStringTransformer(TransformerMixin):\n    def fit(self, X, y=None):\n        return self\n    def transform(self, X):",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanToStringTransformer",
+        "kind": 6,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "class BooleanToStringTransformer(TransformerMixin):\n    def fit(self, X, y=None):\n        return self\n    def transform(self, X):\n        return X.astype(str)\n# Function to load logistic regression model\n@st.cache_data\ndef load_logistic_model():\n    model = joblib.load('./models/finished_logistic_model.joblib')\n    return model",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "load_logistic_model",
+        "kind": 2,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "def load_logistic_model():\n    model = joblib.load('./models/finished_logistic_model.joblib')\n    return model\n# Function to load SGD model\n@st.cache_data\ndef load_sgd_model():\n    model = joblib.load('./models/finished_sgd_pipeline.joblib')\n    return model\n# Create function to select model\ndef select_model():",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "load_sgd_model",
+        "kind": 2,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "def load_sgd_model():\n    model = joblib.load('./models/finished_sgd_pipeline.joblib')\n    return model\n# Create function to select model\ndef select_model():\n    # create columns to organize/design the select box for selecting model\n    columns_1, columns_2, columns_3 = st.columns(3)\n    with columns_1:\n        # Display select box for choosing model\n        st.selectbox('Select a Model', options=['Logistic Model', 'Sgd Model'], key='selected_model')",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "select_model",
+        "kind": 2,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "def select_model():\n    # create columns to organize/design the select box for selecting model\n    columns_1, columns_2, columns_3 = st.columns(3)\n    with columns_1:\n        # Display select box for choosing model\n        st.selectbox('Select a Model', options=['Logistic Model', 'Sgd Model'], key='selected_model')\n    with columns_2:\n        pass\n    with columns_3:\n        pass",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "make_prediction",
+        "kind": 2,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "def make_prediction(pipeline, encoder):\n    # Extract input features from session state\n    gender = st.session_state['gender']\n    SeniorCitizen = st.session_state['SeniorCitizen']\n    Partner = st.session_state['Partner']\n    Dependents = st.session_state['Dependents']\n    tenure = st.session_state['tenure']\n    PhoneService = st.session_state['PhoneService']\n    MultipleLines = st.session_state['MultipleLines']\n    InternetService = st.session_state['InternetService']",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "def main():\n    pipeline, encoder = select_model() # Select model    \n    # User input form\n    with st.form('Features'):\n        # Create a layout for better organization of the input form\n        Demographic_Information, Contract_and_Billing, Service_Information_1, Service_Information_2 = st.columns(4)\n         # Display input fields\n        with Demographic_Information:\n            # Demographic Information\n            st.header('Demograph')",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_KEY",
+        "kind": 5,
+        "importPath": "pages.03_🛃_Predict",
+        "description": "pages.03_🛃_Predict",
+        "peekOfCode": "DATA_KEY = \"data_key\"\nst.set_page_config(\n    page_title='Predict',\n    page_icon='💹',\n    layout='wide'\n)\n# Define the LogTransformer class\nclass LogTransformer:\n    def __init__(self, constant=1):\n        self.constant = constant",
+        "detail": "pages.03_🛃_Predict",
+        "documentation": {}
+    },
+    {
+        "label": "display_prediction_history",
+        "kind": 2,
+        "importPath": "pages.04_🕰️_History",
+        "description": "pages.04_🕰️_History",
+        "peekOfCode": "def display_prediction_history():\n    csv_path = \"./data/Prediction_history.csv\"\n    df = pd.read_csv(csv_path)\n    return df\nif __name__ == \"__main__\":\n    df = display_prediction_history()\n    st.dataframe(df)",
+        "detail": "pages.04_🕰️_History",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_KEY",
+        "kind": 5,
+        "importPath": "pages.04_🕰️_History",
+        "description": "pages.04_🕰️_History",
+        "peekOfCode": "DATA_KEY = \"data_key\"\nst.set_page_config(\n    page_title='History',\n    page_icon='🎰',\n    layout='wide'\n)\nst.title(\"Prediction History\")\n# History page to display previous predictions\ndef display_prediction_history():\n    csv_path = \"./data/Prediction_history.csv\"",
+        "detail": "pages.04_🕰️_History",
+        "documentation": {}
+    },
+    {
+        "label": "authenticator",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "authenticator = stauth.Authenticate(\n    config['credentials'],\n    config['cookie']['name'],\n    config['cookie']['key'],\n    config['cookie']['expiry_days'],\n    config['preauthorized']\n)\n# Perform user authentication\nname, authentication_status, username = authenticator.login(location='sidebar')\n# Handle authentication status",
+        "detail": "Home",
+        "documentation": {}
+    }
+]
