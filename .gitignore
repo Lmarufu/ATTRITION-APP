@@ -2,4 +2,4 @@
 /.streamlit
 /.hashed_pw.pkl
 /images
-/config
+/config.yaml
