@@ -5,8 +5,6 @@ This repository is focused on developing a user-friendly customer churn predicti
 Overview
 This Streamlit web application aims to provide insights and predictions related to customer churn. It utilizes various data visualization techniques and machine learning models to analyze customer data and predict whether a customer is likely to churn or not.
 
-
-
 ## **Project Title:** Churn Prediction Dashboard for Vodafone Corporation
 
 ## **Description:**
@@ -58,21 +56,7 @@ The Churn Prediction Dashboard for Vodafone Corporation aims to address customer
 - Incorporation of additional data sources to enhance prediction accuracy.
 
 
-
-## Acknowledgments:**
-Special thanks to Azubi Africa for their comprehensive training programs.
-
-## Technologies Used
-Python
-Streamlit
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Plotly
-Scikit-learn
-Contributors
-# Author : MARUFU LOVENESS ENESIA
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+# Author : MARUFU LOVENESS ENESIA
